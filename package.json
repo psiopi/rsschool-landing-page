@@ -1,0 +1,20 @@
+{
+  "name": "rsschool-landing-page",
+  "version": "1.0.0",
+  "description": "2026_Coffee_House",
+  "homepage": "https://github.com/psiopi/rsschool-landing-page#readme",
+  "bugs": {
+    "url": "https://github.com/psiopi/rsschool-landing-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psiopi/rsschool-landing-page.git"
+  },
+  "license": "ISC",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss style.css"
+  }
+}

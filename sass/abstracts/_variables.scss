@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+         url('../../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf'),
+         url('../../fonts/Inter-VariableFont_opsz\,wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+//colors
+$text-primary: #403F3D;
+$text-inverse: #e1d4c9;
+$text-accent: #b0907a;
+$bacground-page: #E1D4C9;
+$bacground-container: #665F55;
+$bacground-overlay: #403F3D;
+$border-primary: #c1b6ad;
+$border-inverse: #665f55;
+
+$desktop-width: 1440px;
+$tablet-width: 768px;
+$mobile-width: 380px;
