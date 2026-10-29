@@ -9,30 +9,121 @@
 <body>
     <header class="header">
         <div class="wrapper">
-            <a href="./img/logo.svg" class="logo">Logo</a>
-            <object class="logo" data="./img/logo.svg" type="image/svg+xml"></object>
-            <nav class="header__navigation">
-                <ul class="navigation">
-                    <li><a href="#products">Favorite coffee</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#mobile">Mobile app</a></li>
-                    <li><a href="#contact">Contact us</a></li>
-                </ul>
-            </nav>
+            <div class="header__menu">
+                <a href="./img/logo.svg" class="menu__logo">
+                    <object class="logo" data="./img/logo.svg" type="image/svg+xml"></object>
+                </a>
+                <nav class="menu__navigation">
+                    <ul class="navigation">
+                        <li><a href="#products">Favorite coffee</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#mobile">Mobile app</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="menu__actions">
+                    <div class="actions__pagination-buttons-theme">
+                        <button class="button-theme button-theme__light button-theme_on"><object data="./img/Sun.svg" type="image/svg+xml"></object></button>
+                        <button class="button-theme button-theme__dark button-theme_on"><object data="./img/Moon.svg" type="image/svg+xml"></object></button>
+                    </div>
+                    <a href="./menu.html" class="actions__menu-button">
+                        <p class="menu-button_title">Menu</p>
+                        <object data="./img/coffee-cup.svg" type="image/svg+xml" class="menu-button_icon"></object>
+                    </a>
+                    <span class="actions__burger-sign"></span>
+                </div>
+            </div>
         </div>
     </header>
 
     <section class="hero">
-
+        <div class="wrapper">
+            <div class="offer">
+                <h1><span class="accent">Enjoy</span> premium coffee at our charming cafe</h1>
+                <p>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+                <a href="./menu.html" class="actions__menu-button">
+                    <p class="menu-button_title">Menu</p>
+                    <object data="./img/coffee-cup.svg" type="image/svg+xml" class="menu-button_icon"></object>
+                </a>
+            </div>
+        </div>
     </section>
 
-    <section id="products" class="products"></section>
+    <section id="products" class="products">
+        <div class="wrapper">
+            <h2>Choose your <span class="accent">favorite</span> coffee</h2>
+            <div class="slider">
+                <div class="slides"></div>
+                <div class="controls"></div>
+            </div>
+        </div>
+    </section>
 
-    <section id="about" class="about__us"></section>
+    <section id="about" class="about">
+        <div class="wrapper">
+            <h2>Resource is <span class="accent">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+            <div class="content">
+                <img src="./img/about-1.png" alt="coffee for life">
+                <img src="./img/about-2.png" alt="coffee for calm">
+                <img src="./img/about-3.png" alt="coffee for job">
+                <img src="./img/about-4.png" alt="coffee for meets">
+            </div>
+        </div>
+    </section>
 
-    <section id="mobile" class="mobile__app"></section>
+    <section id="mobile" class="mobile-app">
+        <div class="wrapper">
+            <h2><span class="accent">Download</span> our app to start ordering</h2>
+            <p>Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+            <div class="app__buttons">
+                <button class="buttons-store">
+                    <object data="./img/icons/icon-apple.svg" type="image/svg+xml"></object>
+                    <p class="caption">Available on the</p>
+                    <p class="link-and-button">App Store</p>
+                </button>
+                <button class="buttons-store">
+                    <object data="./img/icons/icon-gooleplay.svg" type="image/svg+xml"></object>
+                    <p class="caption">Available on</p>
+                    <p class="link-and-button">Google Play</p>
+                </button>
+                <img src="./img/mobile-screens.png" alt="phone screens">
+            </div>
+        </div>
+    </section>
 
-    <footer id="contact"></footer>
+    <footer id="contact">
+        <div class="wrapper">
+            <div class="welcome-social">
+                <h2>Sir, Savor, Smile.<br><span class="accent">It's coffee time!</span></h2>
+                <object data="./img/icons/twitter.svg" type="image/svg+xml" class="social"></object>
+                <object data="./img/icons/instagram.svg" type="image/svg+xml" class="social"></object>
+                <object data="./img/icons/facebook.svg" type="image/svg+xml" class="social"></object>
+            </div>
+            <div class="contact">
+                <h3 class="contact__title">Contact us</h3>
+                <ul class="contact__links">
+                    <li>
+                        <li>
+                        <a href="https://www.google.com/maps/?q=44.1788906,19.7382929" target="_blank">
+                            <object data="./img/icons/pin-alt.svg" type="image/svg+xml" class="contact__link"></object>
+                            8558 Green Rd., LA
+                        </a>
+                    </li>
+                        <a href="tel:+16035550123">
+                            <object data="./img/icons/phone.svg" type="image/svg+xml" class="contact__link"></object>
+                            +1(603)555-0123
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">
+                            <object data="./img/icons/clock.svg" type="image/svg+xml" class="contact__link"></object>
+                            Mon–Sat: 9:00–23:00
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
