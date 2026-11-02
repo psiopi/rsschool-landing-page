@@ -1,23 +1,24 @@
 //Abstracts
-@import "abstracts/variables";
-@import "abstracts/placeholders";
-@import "abstracts/mixins";
+@use "abstracts/variables";
+@use "abstracts/placeholders";
+@use "abstracts/mixins";
 
 
 //Base
-@import "base/base";
-@import "base/buttons";
+@use "base/base";
+@use "base/buttons";
 
 //Theme
-@import "themes/theme";
+@use "themes/theme";
 
 //Layouts
-@import "layouts/wrapper";
-@import "layouts/grid";
+@use "layouts/wrapper";
+@use "layouts/header";
+@use "layouts/grid";
 
 
 //Components
-@import "components/header";
-@import "components/slider";
-@import "components/footer";
-@import "components/modals";
+
+@use "components/slider";
+@use "components/footer";
+@use "components/modals";
